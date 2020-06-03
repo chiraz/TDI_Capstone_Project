@@ -1,0 +1,11 @@
+World countries NPI & Confirmed Cases data:
+https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv
+
+
+US Counties NPI data:
+https://www.keystonestrategy.com/coronavirus-covid19-intervention-dataset-model/
+
+
+US Counties Confirmed Cases Data:
+https://github.com/nytimes/covid-19-data
+
