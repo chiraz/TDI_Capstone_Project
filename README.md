@@ -2,7 +2,6 @@
 
 This repository contains the final submission of my Data Incubator (TDI) Capstone Project.
 
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
 ## Checklist of TDI requirements
 
@@ -90,7 +89,6 @@ in model selection.
 Our main deliverable is a Jupyter notebook that contains a cleaned up version of all the data analyses 
 (both descriptive and predictive) we've performed to meet the business objective of the project.
 
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
 ## Glossary and definitions
 
@@ -102,7 +100,6 @@ but is considered to be a pretty good surrogate.
 - Infection rate: percent change in number of confirmed cases, calculated as $\frac{C(t) - C(t-p)}{C(t-1)}$, 
 where $p$ is a small integer, usually larger than 1 to smooth noise.
 
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
 ## Machine learning pipeline
 
@@ -151,7 +148,6 @@ These feature values are always non-negative, and are 0 if an NPI was either not
 This representation turned out to have best predictive power of disease progression compared to other representations that we experimented with.
 
 
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
 ## Key results
 
