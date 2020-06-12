@@ -1,8 +1,8 @@
 pandas
 numpy
-math
-re
 datetime
 sklearn
 matplotlib
 seaborn
+ipympl
+ipywidgets
