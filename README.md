@@ -92,9 +92,10 @@ Our main deliverable is a Jupyter notebook that contains a cleaned up version of
 
 ## Glossary and definitions
 
+- The disease: Covid-19 disease.
 - NPI: Non-pharmaceutical intervention.
-- Total number of confirmed cases, denoted $C(t)$: cumulative number of confirmed cases up to day $t$. 
-This quantity depends on the number of tests carried out and is generally much smaller than the *true* number of cases, 
+- Total number of confirmed cases, denoted $C(t)$: cumulative number of confirmed (or recorded) cases up to day $t$. 
+This quantity depends on the number of tests carried out by health officials and is generally much smaller than the *true* number of cases, 
 but is considered to be a pretty good surrogate.
 - Number of daily *new* cases, calculated as $C(t) - C(t-1)$, since the number of cases is observed daily.
 - Infection rate: percent change in number of confirmed cases, calculated as $\frac{C(t) - C(t-p)}{C(t-1)}$, 
@@ -147,8 +148,9 @@ These feature values are always non-negative, and are 0 if an NPI was either not
 
 This representation turned out to have best predictive power of disease progression compared to other representations that we experimented with.
 
-
-
 ## Key results
 
+Our best performing regression model (SVR-RBF) predicts the number of confirmed cases in a county 14 days after 
+the date of the 200th case to within a ratio of around 1.3 - 1.34 of the true value 
+based only on which NPI's have been adopted in that county prior to the 200th case.
 
